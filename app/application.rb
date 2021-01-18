@@ -12,7 +12,7 @@ class Application
         resp.write "Error"
         resp.status = 400 
       else 
-        item.price
+        resp.write item.price
       end
       
     else
